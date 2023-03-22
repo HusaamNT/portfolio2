@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./components/banner/Banner";
-import Features from "./components/features/Features";
+import About from "./components/About/About";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 
@@ -10,7 +10,7 @@ function App() {
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
-        <Features />
+        <About />
         <Projects />
 
       </div>

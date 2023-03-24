@@ -27,3 +27,6 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+img {
+    max-width: none;
+  }

@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./components/banner/Banner";
-import About from "./components/About/LeftAbout";
+import About from "./components/About/About";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 
@@ -12,7 +12,6 @@ function App() {
         <Banner />
         <About />
         <Projects />
-
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 import React from 'react'
 import Title from '../layouts/Title';
 
-import { phone } from "../../assets/index";
+import {  } from "../../assets/index";
 
-const LeftAbout = () => {
+const RightImg2 = () => {
   return (
     <section
       id="aboutme"
@@ -23,4 +23,4 @@ const LeftAbout = () => {
   );
 }
 
-export default LeftAbout
+export default RightImg2

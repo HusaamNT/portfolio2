@@ -19,5 +19,6 @@ export {
   testimonialTwo,
   quote,
   contactImg,
-  phone
+  phone,
+  
 };

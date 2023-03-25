@@ -1,19 +1,18 @@
-import React from 'react'
+import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaLinkedin, FaGithub, FaInstagram} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const RightBanner = () => {
-    const [text] = useTypewriter({
-      words: ["Full Stack Developer.", "Game Developer", "Graphic Designer."],
-      loop: true,
-      typeSpeed: 20,
-      deleteSpeed: 10,
-      delaySpeed: 2000,
-    });
+  const [text] = useTypewriter({
+    words: ["Full Stack Developer.", "Game Developer", "Graphic Designer."],
+    loop: true,
+    typeSpeed: 40,
+    deleteSpeed: 20,
+    delaySpeed: 2000,
+  });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-6">
       <div className="flex flex-col gap-5">
-
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Husaam NT</span>
         </h1>
@@ -25,8 +24,10 @@ const RightBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I have
+        <p className="text-base font-bodyFont leading-8 tracking-wide">
+          With a passion for coding and a keen eye for design, I'm dedicated to
+          crafting exceptional digital experiences that delight users and exceed
+          expectations. From websites to video games to digital art!
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -46,10 +47,9 @@ const RightBanner = () => {
             </span>
           </div>
         </div>
-
-          </div>
-        </div>
+      </div>
+    </div>
   );
-}
+};
 
-export default RightBanner
+export default RightBanner;

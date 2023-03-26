@@ -17,22 +17,26 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="CODE COMICS"
+          des=" Find all the latest comics & conversations on your favourite superheroes! "
           src={projectOne}
+          githubLink="https://github.com/HusaamNT/websiteProjectOne"
+          websiteLink="https://husaamnt.github.io/websiteProjectOne/"
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="REVVIT"
+          des=" Post, share and talk about all your favourite cars! "
           src={projectTwo}
+          githubLink="https://github.com/HusaamNT/revvit"
+          websiteLink="https://enigmatic-beyond-97637.herokuapp.com/"
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="ROLLER RIDE"
+          des=" Book tickets for the craziest rollercoaster rides! Discuss your day out at the park 
+          in the blog and find the next hottest rollercoaster! "
           src={projectThree}
+          githubLink="https://github.com/HusaamNT/reactRollerRide"
+          websiteLink="https://roller-coaster4.herokuapp.com/home"
         />
         <ProjectsCard
           title="SOCIAL MEDIA CLONE"

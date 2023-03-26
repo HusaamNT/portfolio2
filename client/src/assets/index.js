@@ -9,6 +9,10 @@ import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import phone from "./images/phone.png";
 import photo from "./images/photo.png";
+import REVVIT from "./images/projects/REVVIT.png";
+import CodeComics from "./images/projects/CodeComics.png";
+import RollerRide from "./images/projects/RollerRide.png";
+import JATE from "./images/projects/JATE.png";
 
 export {
   logo,
@@ -21,5 +25,9 @@ export {
   quote,
   contactImg,
   phone,
-  photo
+  photo,
+  REVVIT,
+  CodeComics,
+  RollerRide,
+  JATE
 };

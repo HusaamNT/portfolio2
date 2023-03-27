@@ -12,7 +12,7 @@ const LeftAbout = () => {
       <Title title="Who am I?" des="About me" />
       <div className="w-full flex justify-center items-center relative">
       <img
-        className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10 group-hover:scale-110 duration-300"
+        className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
         src={phone}
         alt="bannerImg"
       />

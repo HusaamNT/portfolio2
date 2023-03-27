@@ -5,6 +5,7 @@ import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
+import DownloadPDFButton from '../CV/CV'
 
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
@@ -34,6 +35,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+           <DownloadPDFButton />
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}

@@ -50,25 +50,16 @@ const Projects = () => {
         />
         <ProjectsCard
           title="JATE TEXT EDITOR"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Create and edit code scripts here on this downloadable web pack text editor application. "
           src={JATE}
           githubLink="https://github.com/HusaamNT/textEditor"
           websiteLink="https://jate-text-editor19.herokuapp.com/"
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="NOTE TAKER"
+          des=" Keep organised with this note taking platform where you can 
+          create new notes, save them and delete them upon completion! "
           src={projectOne}
-          githubLink=""
-          websiteLink=""
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
           githubLink=""
           websiteLink=""
         />

@@ -36,15 +36,33 @@ const RightBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaLinkedin />
-            </span>
-            <span className="bannerIcon">
-              <FaGithub />
-            </span>
-            <span className="bannerIcon">
-              <FaInstagram />
-            </span>
+          <a
+                    href="https://www.linkedin.com/in/husaamnt/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="bannerIcon">
+                      <FaLinkedin />
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/HusaamNT"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="bannerIcon">
+                      <FaGithub />
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/m.hntnt/?theme=dark"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="bannerIcon">
+                      <FaInstagram />
+                    </span>
+                  </a>
           </div>
         </div>
       </div>

@@ -1,18 +1,26 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
-import { navLinksdata } from '../../constants';
-import DownloadPDFButton from '../CV/CV'
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constants";
+import DownloadPDFButton from "../CV/CV";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [text] = useTypewriter({
+    words: ["C#", "Python", "Unreal Engine"],
+    loop: true,
+    typeSpeed: 20,
+    deleteSpeed: 10,
+    delaySpeed: 1000,
+  });
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-      <h1 className="text-6xl font-bold text-white">
+        <h1 className="text-6xl font-bold text-white">
           <span className="text-designColor capitalize">HNT</span>
         </h1>
       </div>
@@ -29,13 +37,13 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}  
+                duration={500}
               >
                 {title}
               </Link>
             </li>
           ))}
-           <DownloadPDFButton />
+          <DownloadPDFButton />
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
@@ -49,9 +57,9 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  Mastering programming is a goal with an unforeseeable end but
+                  a path I have a burning passion to follow. I am now learning{" "}
+                  {text}
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -79,15 +87,33 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                  <a
+                    href="https://www.linkedin.com/in/husaamnt/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="bannerIcon">
+                      <FaLinkedin />
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/HusaamNT"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="bannerIcon">
+                      <FaGithub />
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/m.hntnt/?theme=dark"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="bannerIcon">
+                      <FaInstagram />
+                    </span>
+                  </a>
                 </div>
               </div>
               <span
@@ -102,6 +128,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

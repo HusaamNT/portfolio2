@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2/static/css/main.292307b6.css",
-    "main.js": "/portfolio2/static/js/main.0bd137d0.js",
+    "main.js": "/portfolio2/static/js/main.f2c0cf3e.js",
     "static/media/RollerRide.png": "/portfolio2/static/media/RollerRide.b491ef48033b750cd418.png",
     "static/media/REVVIT.png": "/portfolio2/static/media/REVVIT.055381ef9b3fd97ce6f4.png",
     "static/media/CodeComics.png": "/portfolio2/static/media/CodeComics.1544960d58a6834b08f2.png",
@@ -18,10 +18,10 @@
     "static/media/projectTwo.jpg": "/portfolio2/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
     "index.html": "/portfolio2/index.html",
     "main.292307b6.css.map": "/portfolio2/static/css/main.292307b6.css.map",
-    "main.0bd137d0.js.map": "/portfolio2/static/js/main.0bd137d0.js.map"
+    "main.f2c0cf3e.js.map": "/portfolio2/static/js/main.f2c0cf3e.js.map"
   },
   "entrypoints": [
     "static/css/main.292307b6.css",
-    "static/js/main.0bd137d0.js"
+    "static/js/main.f2c0cf3e.js"
   ]
 }

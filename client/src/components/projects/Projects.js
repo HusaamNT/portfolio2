@@ -2,8 +2,6 @@ import React from "react";
 import Title from "../layouts/Title";
 import {
   projectOne,
-  projectTwo,
-  projectThree,
   REVVIT,
   CodeComics,
   RollerRide,

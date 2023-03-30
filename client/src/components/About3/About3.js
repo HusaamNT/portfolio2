@@ -1,5 +1,5 @@
 import React from "react";
-import LeftImg3 from "./LeftImg3";
+
 import RightAbout3 from "./RightAbout3";
 
 const About3 = () => {

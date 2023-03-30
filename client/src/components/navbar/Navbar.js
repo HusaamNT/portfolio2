@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 import DownloadPDFButton from "../CV/CV";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { useTypewriter } from "react-simple-typewriter";
 
 const Navbar = () => {
   const [text] = useTypewriter({

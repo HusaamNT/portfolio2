@@ -57,16 +57,16 @@ const Contact = () => {
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 mb-12">
           <div class="mb-12 lg:mb-0 text-center mx-auto">
-            <BsGlobeAmericas className="h-10 w-10 text-red-500 mx-auto"/>
+            <BsGlobeAmericas className="h-10 w-10 text-designColor mx-auto"/>
             <h6 class="font-medium">United Kingdom</h6>
 
           </div>
           <div class="mb-12 lg:mb-0 text-center mx-auto">
-          <AiOutlineMail className="h-11 w-10 text-red-500 mx-auto"/>
+          <AiOutlineMail className="h-11 w-10 text-designColor mx-auto"/>
             <h6 class="font-medium">husnaeem@gmail.com</h6>
           </div>
           <div class="mb-6 md:mb-0 text-center mx-auto">
-            <BsFillTelephoneFill className="h-10 w-10 text-red-500 mx-auto"/>
+            <BsFillTelephoneFill className="h-10 w-10 text-designColor mx-auto"/>
             <h6 class="font-medium">+44 7391206771</h6>
           </div>
         </div>

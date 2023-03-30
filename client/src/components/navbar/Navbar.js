@@ -98,8 +98,7 @@ const Navbar = () => {
                   </a>
                   <a
                     href="https://github.com/HusaamNT"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target="_blank"                    rel="noopener noreferrer"
                   >
                     <span className="bannerIcon">
                       <FaGithub />

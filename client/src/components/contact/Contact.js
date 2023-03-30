@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import Title from '../layouts/Title';
-
+import { BsGlobeAmericas } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFillTelephoneFill } from "react-icons/bs";
 const Contact = () => {
   const [username, setUsername] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -52,6 +54,21 @@ const Contact = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="Send me a message" des="Contact" />
       </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 mb-12">
+          <div class="mb-12 lg:mb-0 text-center mx-auto">
+            <BsGlobeAmericas className="h-10 w-10 text-red-500 mx-auto"/>
+            <h6 class="font-medium">United Kingdom</h6>
+
+          </div>
+          <div class="mb-12 lg:mb-0 text-center mx-auto">
+          <AiOutlineMail className="h-11 w-10 text-red-500 mx-auto"/>
+            <h6 class="font-medium">husnaeem@gmail.com</h6>
+          </div>
+          <div class="mb-6 md:mb-0 text-center mx-auto">
+            <BsFillTelephoneFill className="h-10 w-10 text-red-500 mx-auto"/>
+            <h6 class="font-medium">+44 7391206771</h6>
+          </div>
+        </div>
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <div className="w-full lgl:w-[85%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne mx-auto">
@@ -161,6 +178,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    
   );
 }
 

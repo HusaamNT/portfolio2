@@ -27,8 +27,8 @@ const Projects = () => {
           des=" Find all the latest comics & conversations on your favourite superheroes! 
           Find out all the coolest characters information and their appearances in comic series."
           src={CodeComics}
-          githubLink="https://github.com/HusaamNT/websiteProjectOne"
-          websiteLink="https://husaamnt.github.io/websiteProjectOne/"
+          githubLink="https://github.com/HusaamNT/codeComics"
+          websiteLink="https://husaamnt.github.io/codeComics/"
         />
         <ProjectsCard
           title="REVVIT"
